@@ -1,0 +1,5 @@
+<div class="product-list">
+    @for (item of products; track $index) {
+        <eshop-product-card [product]="item"></eshop-product-card>
+    }
+</div>

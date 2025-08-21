@@ -1,0 +1,59 @@
+<div class="product-card">
+    <!-- Product Badge -->
+    @if (product.highlight) {
+        @let category = product.highlight.type;
+        <div [class]="{
+            'product-badge': true,
+            'badge-discount': category === 0,
+            'badge-new': category === 1,
+            'badge-bestseller': category === 2,
+            'badge-offer': category === 3,
+            'badge-featured': category === 4
+        }">{{product.highlight.text}}</div>
+    }
+    
+    <!-- Product Actions -->
+    <div class="product-actions">
+        <button class="action-btn" title="Add to wishlist">❤</button>
+        <button class="action-btn" title="Quick view">👁</button>
+    </div>
+    
+    <!-- Product Image -->
+    <div class="product-image">
+        <eshop-image-slider [imageList]="product.images"></eshop-image-slider>
+    </div>
+    
+    <!-- Product Content -->
+    <div class="product-content">
+        <div class="product-category">{{product.name}}</div>
+        <h3 class="product-title">{{product.shortDescription}}</h3>
+        
+        <!-- Rating -->
+        <div class="product-rating">
+            @for (i of [1, 2, 3, 4, 5]; track i) {
+                <span [class]="{'stars': true,'filled': i < product.rating}">&#9733;</span>
+            }
+            <span class="rating-value">{{product.rating}}</span>
+            <span class="rating-count">({{product.noOfPeopleRated}} reviews)</span>
+        </div>
+        
+        <!-- Price -->
+        <div class="product-price">
+            @if (product.discount > 0) {
+                <span class="original-price">₹{{product.price}}</span>
+                <span class="discount-percent">{{product.discount}}% OFF</span>
+            }
+            <span class="current-price">₹{{product.price - ((product.discount/100)*product.price)}}</span>
+        </div>
+        
+        <!-- Buttons -->
+        <div class="product-buttons">
+            <button class="btn btn-primary">
+                <mat-icon>add_shopping_cart</mat-icon>Add to Cart
+            </button>
+            <button class="btn buy-now-btn">
+                <mat-icon>flash_on</mat-icon>Buy Now
+            </button>
+        </div>
+    </div>
+</div>
