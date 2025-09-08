@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { HeaderComponent } from '../shared/components/header-component/header-component';
 
 @Component({
   selector: 'app-root',
-  imports: [],
+  imports: [RouterOutlet, HeaderComponent],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
 export class App {
-  protected title = 'eshop-ui';
+  protected title = 'E-Shop';
 }

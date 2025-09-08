@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "HP Laptop",
+        "brandName": "HP",
+        "category": "Electronics",
+        "images": [
+            { "id":1, "link": "../products/headph-1/img.webp", "description": "Soundcore Space One" },
+            { "id":2, "link": "../products/headph-1/img-1.webp", "description": "Soundcore Space One - Alternate View" },
+            { "id":3, "link": "../products/headph-1/img-2.webp", "description": "Soundcore Space One - Side View" }
+        ],
+        "price": 34500.5,
+        "rating": 4.5,
+        "noOfPeopleRated": 1287,
+        "discount": 10,
+        "description": {
+            "id":1,
+            "description": "Black color, 1TB Storage, 15GB RAM, 16Inch Display",
+            "material": "Metal",
+            "size": 16,
+            "weight": 5.4,
+            "color": "Black",
+            "dimension": "30 X 34 CM"
+        }
+    }
+]

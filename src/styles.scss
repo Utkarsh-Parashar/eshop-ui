@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+@use '../public/scss/mat-override.scss';
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: var(--text-color);
+  background-color: #fd6212c7;
+  margin: 0;
+}
