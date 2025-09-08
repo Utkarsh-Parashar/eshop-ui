@@ -1,0 +1,64 @@
+<div class="main-container">
+    <!-- Price filter -->
+    <div class="filter-card price-range">
+        <div class="heading">Price Range<span class="reset-button">Reset</span></div>
+        <input class="price-input-box" type="number" [(ngModel)]="minPriceValue" /> -
+        <input class="price-input-box" type="number" [(ngModel)]="maxPriceValue" />
+        
+        <mat-slider min="0" max="500" showTickMarks="true" step="50" range="true" discrete="true">
+            <input type="range" [(value)]="minPriceValue" matSliderStartThumb>
+            <input type="range" [(value)]="maxPriceValue" matSliderEndThumb>
+        </mat-slider>
+    </div>
+
+    <!-- Rating filter -->
+    <div class="filter-card star-rating">
+        <div class="heading">Star Rating<span class="reset-button" (click)="resetStarRatingPref()">Reset</span></div>
+        <div class="star-options">
+            @for (i of [1, 2, 3, 4, 5]; track i) {
+                @if (starRatingPreference >= i) {
+                    <mat-icon class="star star-filled" (click)="onStarClick(i)">star</mat-icon>
+                }
+                @else {
+                    <mat-icon class="star star-outline" (click)="onStarClick(i)">star_outline</mat-icon>
+                }
+            }
+            <span class="subheading">
+                @if (starRatingPreference == 0) {
+                    All Ratings
+                }
+                @else if(starRatingPreference == 5) {
+                    5 Star Rating
+                }
+                @else {
+                    {{starRatingPreference}} Stars & Up
+                }
+            </span>
+        </div>
+    </div>
+
+    <!-- Brand filter -->
+    <div class="filter-card brand">
+        <div class="heading">Brand<span class="reset-button">Reset</span></div>
+        <div class="brand-options">
+            @for (brand of brandList; track $index) {
+                <div class="brand-option">
+                    <p class="brand-item">
+                        {{brand}}
+                        <input class="brand-checkbox" type="checkbox" id="{{brand}}" name="{{brand}}" value="{{brand}}" (change)="onBrandChange($event)" />
+                    </p>
+                </div>
+            }
+        </div>
+    </div>
+
+    <!-- Payment Filter -->
+    <div class="filter-card payment-options">
+        <div class="heading">Payment Options</div>
+        <div class="payment-toggle-btns">
+            @for (item of paymentOptions; track $index) {
+                <mat-button-toggle [value]="item" (click)="onPaymentMethodSelection(item)">{{item}}</mat-button-toggle>
+            }
+        </div>
+    </div>
+</div>

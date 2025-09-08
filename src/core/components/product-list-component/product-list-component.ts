@@ -1,27 +1,18 @@
 import { Component } from '@angular/core';
 import { ProductCard } from '../../../shared/components/product-card/product-card';
 import { Product } from '../../../shared/interfaces/product';
+import { MatButtonModule } from '@angular/material/button';
+import { ProductFilterComponent } from '../../../shared/components/product-filter-component/product-filter-component';
 
 @Component({
   selector: 'app-product-list-component',
-  imports: [ProductCard],
+  imports: [ProductCard, ProductFilterComponent, MatButtonModule],
   templateUrl: './product-list-component.html',
   styleUrl: './product-list-component.scss'
 })
 export class ProductListComponent {
-  headphoneImageList = [
-    { src: '../products/headph-1/img.webp', alt: 'Soundcore Space One' },
-    { src: '../products/headph-1/img-1.webp', alt: 'Soundcore Space One - Alternate View' },
-    { src: '../products/headph-1/img-2.webp', alt: 'Soundcore Space One - Side View' }
-  ];
 
-  jeansImageList = [
-    { src: '../products/jeans-1/img1.webp', alt: 'Levi\'s Original' },
-    { src: '../products/jeans-1/img2.webp', alt: 'Levi\'s Original - Alternate View' },
-    { src: '../products/jeans-1/img3.webp', alt: 'Levi\'s Original - Back View' },
-    { src: '../products/jeans-1/img4.webp', alt: 'Levi\'s Original - Side View' }
-  ];
-
+  categoryList: string[] = ['All', 'Electronics', 'Clothing', 'Books', 'Home Appliances', 'Toys', 'Sports', 'Beauty'];
   products: Product[] = [
     {
       "id": 1,

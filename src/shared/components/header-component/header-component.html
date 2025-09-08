@@ -1,0 +1,26 @@
+<div  [class]="{'header': true, 'header-responsive': isUserLoggedIn, 'header-shrink': !isUserLoggedIn}">
+    <div [class]="{'left-section-responsive': isUserLoggedIn, 'left-section': true}">
+        <span><img class="app-logo" src="../image/logo.jpg" alt="EShop Logo"></span>
+        <span class="search-box" [class]="{'search-box': isUserLoggedIn, 'search-box-mini': !isUserLoggedIn}"><eshop-search-component /></span>
+    </div>
+    <div [class]="{'right-section-responsive': isUserLoggedIn, 'right-section': true}">
+        @if (isUserLoggedIn) {
+            <div class="nav-buttons">
+                <mat-icon matBadge="8" matBadgePosition="before" matBadgeHidden="true">shop_two</mat-icon>
+                <span class="nav-text">Orders</span>
+            </div>
+            <div class="nav-buttons">
+                <mat-icon matBadge="8" matBadgePosition="before">favorite</mat-icon>
+                <span class="nav-text">Favourites</span>
+            </div>
+            <div class="nav-buttons">
+                <mat-icon matBadge="8" matBadgePosition="before">shopping_cart</mat-icon>
+                <span class="nav-text">Cart</span>
+            </div>
+            <div class="nav-buttons" (click)="onProfileClick()"><mat-icon>insert_emoticon</mat-icon></div>
+        }
+        @else {
+            <div class="nav-buttons" (click)="onLoginClick()"><mat-icon>login</mat-icon><span class="nav-text">LogIn</span></div>
+        }
+    </div>
+</div>

@@ -1,0 +1,35 @@
+
+@use '@angular/material' as mat;
+
+html {
+  @include mat.theme((color: (primary: mat.$cyan-palette,
+        tertiary: mat.$orange-palette,
+      ),
+      typography: Roboto,
+      density: 0,
+    ));
+  height: 100%;
+}
+
+/* You can add global styles to this file, and also import other style files */
+:root {
+  --primary-color: #2563eb;
+  --secondary-color: #1e40af;
+  --text-color: #334155;
+  --light-color: #f8fafc;
+  --border-color: #e2e8f0;
+  --success-color: #10b981;
+  --warning-color: #f59e0b;
+  --danger-color: #ef4444;
+  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --transition: all 0.3s ease;
+
+  --mat-form-field-container-height: 36px;
+  --mat-form-field-container-padding: 0 8px;
+  --mat-form-field-container-vertical-padding: 5px;
+}
+
+// To remove the underline from mat-form-field
+.mat-mdc-form-field-bottom-align::before {
+  content: none !important;
+}

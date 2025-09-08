@@ -1,5 +1,17 @@
-<div class="product-list">
-    @for (item of products; track $index) {
-        <eshop-product-card [product]="item"></eshop-product-card>
-    }
+<div class="main-container">
+    <div class="product-categories">
+        @for (item of categoryList; track $index) {
+            <button matButton="filled" class="category-button">{{item}}</button>
+        }
+    </div>
+    <div class="product-container">
+        <div class="product-filter">
+            <eshop-product-filter-component />
+        </div>
+        <div class="product-list">
+            @for (item of products; track $index) {
+                <eshop-product-card [product]="item"></eshop-product-card>
+            }
+        </div>
+    </div>
 </div>

@@ -1,0 +1,56 @@
+.filter-card {
+    background-color: white;
+    height: auto;
+    padding: 7px;
+    border: 1px solid white;
+    margin-bottom: 5px;
+    border-radius: 12px;
+}
+
+.heading {
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.subheading {
+    font-size: x-small;
+    color: dimgray;
+    float: right;
+    margin-bottom: 3px;
+}
+
+.reset-button {
+    margin-top: 5px;
+    font-size: x-small;
+    font-weight: 100;
+    float: right;
+    cursor: pointer;
+}
+
+.reset-button:hover {
+    color: #ff6600;
+}
+
+.price-input-box {
+    width: 40%;
+    border-radius: 5px;
+}
+
+.star {
+    font-size: smaller;
+    height: 15px;
+    width: 15px;
+}
+
+.star-filled {
+    color: gold;
+}
+
+.brand-item {
+    margin-bottom: 5px;
+    margin-top: 4px;
+}
+.brand-checkbox {
+    float: right;
+}

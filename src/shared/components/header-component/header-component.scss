@@ -1,0 +1,78 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    align-items: center;
+    background: white;
+}
+
+.left-section {
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.app-logo {
+    height: 40px;
+    width: auto;
+}
+
+.search-box, .search-box-mini {
+    width: 400px;
+}
+
+.right-section {
+    display: inline-flex;
+    gap: 1rem;
+}
+
+.nav-buttons {
+    display: inline-flex;
+    color: darkorange;
+    cursor: pointer;
+    padding: 4px;
+}
+.nav-buttons:hover {
+    background-color: #fbda9f;
+    color: orangered;
+    border-radius: 3px;
+}
+
+.nav-text {
+    margin-top: 2px;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .search-box, .search-box-mini {
+        width: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    .header-responsive {
+        flex-direction: column;
+        padding: 1rem 0.5rem;
+    }
+
+    .right-section-responsive {
+        width: 100%;
+        justify-content: space-between;
+        gap: 0.5rem;
+    }
+
+    .left-section-responsive {
+        width: 100%;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header-shrink {
+        padding: 1rem 0.2rem;
+    }
+
+    .search-box-mini {
+        width: 200px;
+    }
+}

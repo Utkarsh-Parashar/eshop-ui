@@ -1,6 +1,35 @@
+:host {
+    --mat-button-filled-container-color: white;
+    --mat-button-filled-label-text-color: black;
+}
+
+.product-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.product-filter {
+    width: 180px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.product-categories {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.category-button:hover {
+    background-color: lightgray;
+}
+
 .product-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    width: calc(100% - 182px);
     gap: 20px;
     padding: 20px;
 }
