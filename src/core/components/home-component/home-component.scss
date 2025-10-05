@@ -1,0 +1,155 @@
+.category-header {
+    height: 100px;
+    align-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 9px;
+}
+
+.left-section {
+    margin-left: 10px;
+}
+
+.right-section {
+    align-content: center;
+}
+
+.subtitle {
+    // font-size: 14px;
+    color: gray;
+    margin: 5px 0px;
+}
+
+.title {
+    // font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin: 5px 0px;
+}
+.featured-product-list {
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    margin: 0px 10px;
+}
+
+.main-featured-product-card {
+    width: 30%;
+    float: left;
+    padding: 10px;
+    margin-top: 35px;
+    margin-left: 10px;
+}
+
+.other-featured-products {
+    width: 67%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 10px 0px;
+}
+
+.product-card {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.product-card img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.product-name {
+    margin: 5px 0px;
+}
+
+.product-price {
+    margin: 5px 0px;
+}
+
+// Popular categories
+.popular-categories-container {
+    margin-top: 10px;
+}
+
+.popular-categories-header {
+    padding: 10px 0px;
+    place-items: center;
+}
+
+.popular-category-card-container {
+    width: -webkit-fill-available;
+    display: inline-flex;
+    justify-content: space-evenly;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    margin: 0px 10px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.popular-category-card {
+    position: relative;
+}
+
+.category-details {
+    position: absolute;
+    width: 75%;
+    justify-self: anchor-center;
+}
+
+.even-category-card {
+    top: 2px;
+}
+
+.odd-category-card {
+    bottom: 15px;
+}
+
+.category-heading {
+    float: left;
+}
+
+.category-url {
+    float: right;
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+    background-color: black;
+    border: 1px solid;
+    border-radius: 21px;
+}
+
+.category-url > mat-icon {
+    color: white;
+    font-size: 27px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.time-container {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px 5px;
+    border: 1px solid lightsalmon;
+    text-align: center;
+    align-content: center;
+}
+
+.icon-festive {
+    color: #ef6330;
+    font-size: 27px;
+    margin-right: 10px;
+}

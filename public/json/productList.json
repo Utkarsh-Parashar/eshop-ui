@@ -882,5 +882,97 @@
             "text": "Limited Time Offer",
             "type": 2
         }
+    },
+    {
+        "id": 35,
+        "name": "Building Blocks",
+        "brandName": "Bozica",
+        "category": "Toys",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/p35.webp",
+                "description": "Product image"
+            }
+        ],
+        "price": 1000,
+        "rating": 3.9,
+        "noOfPeopleRated": 16204,
+        "discount": 60,
+        "shortDescription": "Building Blocks - Creative Fun",
+        "highlight": {
+            "id": 3,
+            "text": "Limited Time Offer",
+            "type": 2
+        }
+    },
+    {
+        "id": 36,
+        "name": "Talking Plant",
+        "brandName": "Toytoy",
+        "category": "Toys",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/P36.webp",
+                "description": "Product image"
+            }
+        ],
+        "price": 1200,
+        "rating": 3.9,
+        "noOfPeopleRated": 10204,
+        "discount": 69,
+        "shortDescription": "Toytoy talking plant plus Voice repeat",
+        "highlight": {
+            "id": 3,
+            "text": "Limited Time Offer",
+            "type": 2
+        }
+    },
+    {
+        "id": 37,
+        "name": "Baby TriCycle",
+        "brandName": "ToyShopee",
+        "category": "Toys",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/P37.webp",
+                "description": "Product image"
+            }
+        ],
+        "price": 5999,
+        "rating": 3.9,
+        "noOfPeopleRated": 1600,
+        "discount": 47,
+        "shortDescription": "Baby TriCycle - Fun and Safe",
+        "highlight": {
+            "id": 3,
+            "text": "Limited Time Offer",
+            "type": 2
+        }
+    },
+    {
+        "id": 38,
+        "name": "Chess Board",
+        "brandName": "Apex",
+        "category": "Toys",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/P38.webp",
+                "description": "Product image"
+            }
+        ],
+        "price": 500,
+        "rating": 4.2,
+        "noOfPeopleRated": 5786,
+        "discount": 0,
+        "shortDescription": "Magnetic Foldable - Chess Board",
+        "highlight": {
+            "id": 3,
+            "text": "Limited Time Offer",
+            "type": 2
+        }
     }
 ]
