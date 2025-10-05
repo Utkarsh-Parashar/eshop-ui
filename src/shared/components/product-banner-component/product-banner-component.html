@@ -1,0 +1,28 @@
+<div>
+    <div class="banner-carousel--item">
+        @for (item of bannerList; let idx=$index; track idx) {
+        @if (currentIndex == idx) {
+        <!-- Content on banner -->
+        <div class="container">
+            <div class="banner-carousel-content" [ngClass]="{'banner-carousel-content-left': item.contentAlignment === 'left', 'banner-carousel-content-right': item.contentAlignment === 'right', 'banner-carousel-content-center': item.contentAlignment === 'center'}">
+                <div class="banner-carousel-subtitle">{{ item.subtitle }}</div>
+                <h2 class="banner-carousel-title" [innerHTML]="item.title"></h2>
+                <span class="txt-type animated--headline" data-wait="3000" 
+                    data-words="[' Clean Versatile', 'Next Generation', 'High Converting', 'User Experience', 'Mobile Optimized', 'Responsive']">
+                    <span class="txt"></span>
+                </span>
+            </div>
+        </div>
+
+        <!-- Banner image -->
+        <div class="banner-carousel-img">
+            <img data-sizes="auto" [src]="item.imgUrl" alt="Banner Image" width="100%" loading="lazy" sizes="1521px" />
+        </div>
+        }
+        }
+        <div class="dots-container">
+            <span *ngFor="let item of bannerList; let i = index" class="dot" [ngClass]="{'active': i === currentIndex}"
+                (click)="goToSlide(i)"></span>
+        </div>
+    </div>
+</div>

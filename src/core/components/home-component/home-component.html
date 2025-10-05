@@ -1,0 +1,97 @@
+<div class="main-container">
+    <eshop-product-banner-component></eshop-product-banner-component>
+
+    <!-- Featured products -->
+    <div class="featured-products-container">
+        <div class="header category-header">
+            <div class="left-section">
+                <p class="subtitle">We have your needs covered</p>
+                <h1 class="title">Featured Products</h1>
+            </div>
+            <div class="right-section">
+                @for (item of categoryList; track $index) {
+                <button matButton class="category-button">{{item}}</button>
+                }
+            </div>
+        </div>
+        <div class="featured-product-list">
+            <div class="main-featured-product-card">
+                <img src="../image/Products/P1_2.webp" alt="Product Image" width="100%" height="400" />
+            </div>
+            <div class="other-featured-products">
+                @for (item of [1,2,3,4, 5, 6]; track $index;) {
+                    <div class="product-card">
+                        <img src="../image/Products/P1_2.webp" alt="Product Image" />
+                        <h2 class="product-name">Product Name</h2>
+                        <p class="product-price">$99.99</p>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+    <!-- Most Popular Category -->
+    <div class="popular-categories-container">
+        <div class="popular-categories-header category-header">
+            <p class="subtitle">Follow the most popular trends</p>
+            <h1 class="title">Explore top categories</h1>
+        </div>
+        <div class="popular-category-card-container">
+            <!-- design product details card with basic informations like name price and image -->
+            @for (item of topCategories; track $index; let isOdd = $odd; let isEven = $even) {
+            <div class="popular-category-card">
+                <div class="category-details" [class.even-category-card]="isEven"  [class.odd-category-card]="isOdd">
+                    <div class="category-heading">
+                        <h1 class="title">{{item.title}}</h1>
+                        <h5 class="subtitle">{{item.subtitle}}</h5>
+                    </div>
+                    <div class="category-url" [routerLink]="item.redirectUrl"><mat-icon> near_me</mat-icon></div>
+                </div>
+                <img [src]="item.image" alt="Category Image" width="350" height="400" />
+            </div>
+            }
+        </div>
+    </div>
+
+    <!-- Promotional product -->
+    <div class="popular-categories-container">
+        <div class="header category-header">
+            <div class="left-section">
+                <p class="subtitle">Grab the deal</p>
+                <h1 class="title">Limited Time Offer</h1>
+            </div>
+            <div class="right-section">
+                <span class="right-label">Ending in: </span>
+                <span class="time-container">{{remainingTime()['days']}}</span>
+                <span class="time-container">{{remainingTime()['hour']}}</span>
+                <span class="time-container">{{remainingTime()['minute']}}</span>
+                <span class="time-container">{{remainingTime()['second']}}</span>
+            </div>
+        </div>
+        <div>
+            <img src="../image/landing-page/banner-bg.jpeg" alt="Promotional banner" width="100%" />
+        </div>
+    </div>
+
+    <!-- Festive Sale -->
+    <div class="popular-categories-container">
+        <div class="header category-header">
+            <div class="left-section">
+                <p class="subtitle">Top deal on Top Brands</p>
+                <h1 class="title">Festive Sale</h1>
+            </div>
+            <div class="right-section">
+                <mat-icon class="icon-festive">celebration</mat-icon>
+                <mat-icon class="icon-festive">cake</mat-icon>
+                <mat-icon class="icon-festive">card_giftcard</mat-icon>
+                <mat-icon class="icon-festive">fastfood</mat-icon>
+                <mat-icon class="icon-festive">party_mode</mat-icon>
+            </div>
+        </div>
+        <div>
+            @for (item of festiveOffers; track $index){
+                <img [src]="item" alt="Festive offers" width="33%" />
+            }
+        </div>
+    </div>
+</div>

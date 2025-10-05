@@ -1,26 +1,978 @@
 [
     {
         "id": 1,
-        "name": "HP Laptop",
-        "brandName": "HP",
+        "name": "Zebronics Headphones",
+        "brandName": "Zebronics",
         "category": "Electronics",
         "images": [
-            { "id":1, "link": "../products/headph-1/img.webp", "description": "Soundcore Space One" },
-            { "id":2, "link": "../products/headph-1/img-1.webp", "description": "Soundcore Space One - Alternate View" },
-            { "id":3, "link": "../products/headph-1/img-2.webp", "description": "Soundcore Space One - Side View" }
+            {
+                "id": 1,
+                "link": "../image/Products/P1_1.webp",
+                "description": "Soundcore Space One"
+            },
+            {
+                "id": 2,
+                "link": "../image/Products/P1_2.webp",
+                "description": "Soundcore Space One - Alternate View"
+            },
+            {
+                "id": 3,
+                "link": "../image/Products/P1_3.webp",
+                "description": "Soundcore Space One - Side View"
+            }
+        ],
+        "price": 12050,
+        "rating": 3.7,
+        "noOfPeopleRated": 638,
+        "discount": 10,
+        "shortDescription": "Zebronics Zeb-Storm Wired On Ear Headphone",
+        "highlight": {
+            "id": 2,
+            "text": "NEW ARRIVAL",
+            "type": 1
+        }
+    },
+    {
+        "id": 2,
+        "name": "Dell Laptop",
+        "brandName": "Dell",
+        "category": "Electronics",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/P2_1.webp",
+                "description": "Soundcore Space One"
+            },
+            {
+                "id": 2,
+                "link": "../image/Products/P2_2.webp",
+                "description": "Soundcore Space One - Alternate View"
+            },
+            {
+                "id": 3,
+                "link": "../image/Products/P2_3.webp",
+                "description": "Soundcore Space One - Side View"
+            },
+            {
+                "id": 4,
+                "link": "../image/Products/P2_4.webp",
+                "description": "Soundcore Space One - Side View"
+            }
         ],
         "price": 34500.5,
         "rating": 4.5,
         "noOfPeopleRated": 1287,
+        "discount": 20,
+        "shortDescription": "Black color, 1TB Storage, 15GB RAM, 16Inch Display",
+        "highlight": {
+            "id": 1,
+            "text": "20% OFF",
+            "type": 0
+        }
+    },
+    {
+        "id": 3,
+        "name": "Levi's Jeans",
+        "brandName": "Levi's",
+        "category": "Clothing",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/P3_1.webp",
+                "description": "Soundcore Space One"
+            },
+            {
+                "id": 2,
+                "link": "../image/Products/P3_2.webp",
+                "description": "Soundcore Space One - Alternate View"
+            },
+            {
+                "id": 3,
+                "link": "../image/Products/P3_3.webp",
+                "description": "Soundcore Space One - Side View"
+            }
+        ],
+        "price": 2500,
+        "rating": 4.8,
+        "noOfPeopleRated": 829,
+        "discount": 0,
+        "shortDescription": "Levi's Original 501 Jeans",
+        "highlight": {
+            "id": 3,
+            "text": "BEST SELLER",
+            "type": 2
+        }
+    },
+    {
+        "id": 4,
+        "name": "Nike Running Shoes",
+        "brandName": "Nike",
+        "category": "Footwear",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/P4_1.webp",
+                "description": "Nike Shoe"
+            },
+            {
+                "id": 2,
+                "link": "../image/Products/P4_2.webp",
+                "description": "Nike Shoe - Alternate View"
+            },
+            {
+                "id": 3,
+                "link": "../image/Products/P4_3.webp",
+                "description": "Nike Shoe - Side View"
+            }
+        ],
+        "price": 7500,
+        "rating": 4.2,
+        "noOfPeopleRated": 945,
+        "discount": 15,
+        "shortDescription": "Nike Air Zoom Pegasus 38 Running Shoes",
+        "highlight": {
+            "id": 4,
+            "text": "Trending",
+            "type": 0
+        }
+    },
+    {
+        "id": 5,
+        "name": "Olive oil",
+        "brandName": "Saffola",
+        "category": "Grocery",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/P5_1.jpg",
+                "description": "Saffola olive oil"
+            },
+            {
+                "id": 2,
+                "link": "../image/Products/P5_2.jpg",
+                "description": "Saffola olive oil - Alternate View"
+            },
+            {
+                "id": 3,
+                "link": "../image/Products/P5_3.jpg",
+                "description": "Saffola olive oil - Side View"
+            }
+        ],
+        "price": 999,
+        "rating": 4.7,
+        "noOfPeopleRated": 945,
         "discount": 10,
-        "description": {
+        "shortDescription": "Saffola Gold Refined Olive Oil - 1L",
+        "highlight": {
+            "id": 1,
+            "text": "New Arrival",
+            "type": 0
+        }
+    },
+    {
+        "id": 6,
+        "name": "The Alchemist",
+        "brandName": "HarperCollins",
+        "category": "Books",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/P6_1.jpg",
+                "description": "The Alchemist Book"
+            }
+        ],
+        "price": 199,
+        "rating": 4.9,
+        "noOfPeopleRated": 1500,
+        "discount": 5,
+        "shortDescription": "The Alchemist by Paulo Coelho - Paperback",
+        "highlight": {
+            "id": 2,
+            "text": "BEST SELLER",
+            "type": 2
+        }
+    },
+    {
+        "id": 7,
+        "name": "Apple iPhone 13",
+        "brandName": "Apple",
+        "category": "Electronics",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/P7_1.jpg",
+                "description": "iPhone 13"
+            },
+            {
+                "id": 2,
+                "link": "../image/Products/P7_2.jpg",
+                "description": "iPhone 13 - Alternate View"
+            },
+            {
+                "id": 3,
+                "link": "../image/Products/P7_3.jpg",
+                "description": "iPhone 13 - Side View"
+            }
+        ],
+        "price": 79999,
+        "rating": 4.6,
+        "noOfPeopleRated": 2000,
+        "discount": 10,
+        "shortDescription": "Apple iPhone 13 (128GB) - Midnight",
+        "highlight": {
+            "id": 3,
+            "text": "Limited Time Offer",
+            "type": 2
+        }
+    },
+    {
+        "id": 8,
+        "name": "Adidas T-Shirt",
+        "brandName": "Adidas",
+        "category": "Clothing",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/P8_1.jpg",
+                "description": "Adidas T-Shirt"
+            },
+            {
+                "id": 2,
+                "link": "../image/Products/P8_2.avif",
+                "description": "Adidas T-Shirt - Alternate View"
+            }
+        ],
+        "price": 1200,
+        "rating": 4.3,
+        "noOfPeopleRated": 600,
+        "discount": 25,
+        "shortDescription": "Adidas Polo Sports T-Shirt",
+        "highlight": {
+            "id": 3,
+            "text": "Hot Deal",
+            "type": 0
+        }
+    },
+    {
+        "id": 9,
+        "name": "Samsung Galaxy S21",
+        "brandName": "Samsung",
+        "category": "Electronics",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/P9_1.webp",
+                "description": "Samsung Galaxy S21"
+            }
+        ],
+        "price": 79999,
+        "rating": 4.5,
+        "noOfPeopleRated": 1500,
+        "discount": 10,
+        "shortDescription": "Samsung Galaxy S21 (128GB) - Phantom Gray",
+        "highlight": {}
+    },
+    {
+        "id": 10,
+        "name": "Sony WH-1000XM4",
+        "brandName": "Sony",
+        "category": "Electronics",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/P10_1.webp",
+                "description": "Sony WH-1000XM4"
+            }
+        ],
+        "price": 29999,
+        "rating": 4.8,
+        "noOfPeopleRated": 1200,
+        "discount": 15,
+        "shortDescription": "Sony WH-1000XM4 Wireless Noise Cancelling Headphones",
+        "highlight": {}
+    },
+    {
+        "id": 11,
+        "name": "Bose QuietComfort 35 II",
+        "brandName": "Bose",
+        "category": "Electronics",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/P11_1.avif",
+                "description": "Bose QuietComfort 35 II"
+            },
+            {
+                "id": 2,
+                "link": "../image/Products/P11_2.jpg",
+                "description": "Bose QuietComfort 35 II - Alternate View"
+            }
+        ],
+        "price": 34999,
+        "rating": 4.7,
+        "noOfPeopleRated": 1000,
+        "discount": 10,
+        "shortDescription": "Bose QuietComfort 35 II Wireless Headphones",
+        "highlight": {}
+    },
+    {
+        "id": 12,
+        "name": "HP Spectre x360",
+        "brandName": "HP",
+        "category": "Electronics",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/P12_1.jpg",
+                "description": "HP Spectre x360"
+            },
+            {
+                "id": 2,
+                "link": "../image/Products/P12_2.jpg",
+                "description": "HP Spectre x360 - Alternate View"
+            }
+        ],
+        "price": 125000,
+        "rating": 4.6,
+        "noOfPeopleRated": 800,
+        "discount": 20,
+        "shortDescription": "HP Spectre x360 Convertible Laptop",
+        "highlight": {}
+    },
+    {
+        "id": 13,
+        "name": "Canon EOS R5",
+        "brandName": "Canon",
+        "category": "Electronics",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/P13_1.webp",
+                "description": "Canon EOS R5"
+            }
+        ],
+        "price": 389999,
+        "rating": 4.9,
+        "noOfPeopleRated": 500,
+        "discount": 5,
+        "shortDescription": "Canon EOS R5 Full-Frame Mirrorless Camera",
+        "highlight": {}
+    },
+    {
+        "id": 14,
+        "name": "Nikon Z6 II",
+        "brandName": "Nikon",
+        "category": "Electronics",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/P14_1.jpg",
+                "description": "Nikon Z6 II"
+            }
+        ],
+        "price": 199999,
+        "rating": 4.8,
+        "noOfPeopleRated": 300,
+        "discount": 10,
+        "shortDescription": "Nikon Z6 II Full-Frame Mirrorless Camera",
+        "highlight": {
+            "id": 4,
+            "text": "Flagship Product",
+            "type": 1
+        }
+    },
+    {
+        "id":15,
+        "name": "Van Hussein Shirt",
+        "brandName": "Van Hussein",
+        "category": "Fashion",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/P15_1.jpg",
+                "description": "Van Hussein Shirt"
+            }
+        ],
+        "price": 2999,
+        "rating": 4.5,
+        "noOfPeopleRated": 200,
+        "discount": 5,
+        "shortDescription": "Van Hussein Men's Shirt - Blue",
+        "highlight": {}
+    },
+    {
+        "id": 16,
+        "name": "Van Hussein Pants",
+        "brandName": "Van Hussein",
+        "category": "Fashion",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/P16_1.avif",
+                "description": "Van Hussein Pants"
+            }
+        ],
+        "price": 3999,
+        "rating": 4.5,
+        "noOfPeopleRated": 150,
+        "discount": 10,
+        "shortDescription": "Van Hussein Men's Pants - Black",
+        "highlight": {}
+    },
+    {
+        "id": 17,
+        "name": "Indian Terrain Jacket",
+        "brandName": "Indian Terrain",
+        "category": "Fashion",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/P17_1.avif",
+                "description": "Indian Terrain Jacket"
+            }
+        ],
+        "price": 5999,
+        "rating": 4.6,
+        "noOfPeopleRated": 100,
+        "discount": 15,
+        "shortDescription": "Indian Terrain Men's Jacket - Grey",
+        "highlight": {
+            "id": 3,
+            "text": "Limited Stock",
+            "type": 1
+        }
+    },
+    {
+        "id": 18,
+        "name": "Lakme Lipstick",
+        "brandName": "Lakme",
+        "category": "Beauty",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/P18_1.jpg",
+                "description": "Lakme Lipstick"
+            }
+        ],
+        "price": 499,
+        "rating": 4.4,
+        "noOfPeopleRated": 250,
+        "discount": 5,
+        "shortDescription": "Lakme Enrich Matte Lipstick",
+        "highlight": {}
+    },
+    {
+        "id": 19,
+        "name": "Maybelline Mascara",
+        "brandName": "Maybelline",
+        "category": "Beauty",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/P19_1.avif",
+                "description": "Maybelline Mascara"
+            }
+        ],
+        "price": 799,
+        "rating": 4.5,
+        "noOfPeopleRated": 300,
+        "discount": 10,
+        "shortDescription": "Maybelline Hypercurl Mascara",
+        "highlight": {}
+    },
+    {
+        "id": 20,
+        "name": "HP LiteBook",
+        "brandName": "HP",
+        "category": "Electronics",
+        "images": [
+            {
+                "id": 2,
+                "link": "../image/Products/P12_2.jpg",
+                "description": "HP Spectre x360 - Alternate View"
+            },
+            {
+                "id": 1,
+                "link": "../image/Products/P12_1.jpg",
+                "description": "HP Spectre x360"
+            }
+        ],
+        "price": 95000,
+        "rating": 4.4,
+        "noOfPeopleRated": 890,
+        "discount": 15,
+        "shortDescription": "HP Light weight Laptop",
+        "highlight": {
+            "id": 1,
+            "text": "New Arrival",
+            "type": 1
+        }
+    },
+    {
+        "id": 21,
+        "name": "Fujifilm DSLR R5",
+        "brandName": "Fujifilm",
+        "category": "Electronics",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/P13_1.webp",
+                "description": "Canon EOS R5"
+            }
+        ],
+        "price": 339999,
+        "rating": 4.2,
+        "noOfPeopleRated": 500,
+        "discount": 5,
+        "shortDescription": "Fujifilm EOS R5 Full-Frame DSLR Camera",
+        "highlight": {}
+    },
+    {
+        "id": 22,
+        "name": "Nikon Z6 II Lens",
+        "brandName": "Nikon",
+        "category": "Electronics",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/P14_1.jpg",
+                "description": "Nikon Z6 II"
+            }
+        ],
+        "price": 1999,
+        "rating": 3.8,
+        "noOfPeopleRated": 300,
+        "discount": 0,
+        "shortDescription": "Nikon Z6 II Full-Frame Mirrorless Camera Lens",
+        "highlight": {}
+    },
+    {
+        "id": 23,
+        "name": "Allen Solley Shirt",
+        "brandName": "Allen Solly",
+        "category": "Fashion",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/P15_1.jpg",
+                "description": "Van Hussein Shirt"
+            }
+        ],
+        "price": 2499,
+        "rating": 4.7,
+        "noOfPeopleRated": 200,
+        "discount": 5,
+        "shortDescription": "Allen Solley Men's Shirt - Black",
+        "highlight": {
             "id":1,
-            "description": "Black color, 1TB Storage, 15GB RAM, 16Inch Display",
-            "material": "Metal",
-            "size": 16,
-            "weight": 5.4,
-            "color": "Black",
-            "dimension": "30 X 34 CM"
+            "text": "Highlighted Product",
+            "type": 4
+        }
+    },
+    {
+        "id": 24,
+        "name": "Lee Cooper Pants",
+        "brandName": "Lee Cooper",
+        "category": "Fashion",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/P16_1.avif",
+                "description": "Lee Cooper Pants"
+            }
+        ],
+        "price": 2999,
+        "rating": 3.5,
+        "noOfPeopleRated": 450,
+        "discount": 30,
+        "shortDescription": "Lee Cooper Men's Pants - Black",
+        "highlight": {}
+    },
+    {
+        "id": 25,
+        "name": "Mount Carlo Jacket",
+        "brandName": "Mount Carlo",
+        "category": "Fashion",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/P17_1.avif",
+                "description": "Mount Carlo Jacket"
+            }
+        ],
+        "price": 5999,
+        "rating": 4.6,
+        "noOfPeopleRated": 100,
+        "discount": 15,
+        "shortDescription": "Mount Carlo Men's Jacket - Blue",
+        "highlight": {
+            "id": 1,
+            "text": "Sale",
+            "type": 0
+        }
+    },
+    {
+        "id": 26,
+        "name": "Lakme Lipstick",
+        "brandName": "Lakme",
+        "category": "Beauty",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/P18_1.jpg",
+                "description": "Lakme Lipstick"
+            }
+        ],
+        "price": 699,
+        "rating": 4.7,
+        "noOfPeopleRated": 250,
+        "discount": 15,
+        "shortDescription": "Lakme Enrich Matte Lipstick - Pack of 2",
+        "highlight": {
+            "id": 1,
+            "text": "Hot Deal",
+            "type": 3
+        }
+    },
+    {
+        "id": 27,
+        "name": "Lakme Mascara",
+        "brandName": "Lakme",
+        "category": "Beauty",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/P19_1.avif",
+                "description": "Lakme Mascara"
+            }
+        ],
+        "price": 435,
+        "rating": 3.8,
+        "noOfPeopleRated": 30,
+        "discount": 20,
+        "shortDescription": "Lakme Waterproof Mascara",
+        "highlight": {
+            "id": 3,
+            "text": "SALE",
+            "type": 0
+        }
+    },
+    {
+        "id": 28,
+        "name": "Boat Headphones",
+        "brandName": "Boat",
+        "category": "Electronics",
+        "images": [
+            {
+                "id": 2,
+                "link": "../image/Products/P1_2.webp",
+                "description": "Soundcore Space One - Alternate View"
+            },
+            {
+                "id": 1,
+                "link": "../image/Products/P1_1.webp",
+                "description": "Soundcore Space One"
+            },
+            {
+                "id": 3,
+                "link": "../image/Products/P1_3.webp",
+                "description": "Soundcore Space One - Side View"
+            }
+        ],
+        "price": 22050,
+        "rating": 4.7,
+        "noOfPeopleRated": 4638,
+        "discount": 15,
+        "shortDescription": "Boat Bluetooth AI Headphone",
+        "highlight": {
+            "id": 2,
+            "text": "NEW ARRIVAL",
+            "type": 1
+        }
+    },
+    {
+        "id": 29,
+        "name": "Dell 360-deg Rotatable Laptop",
+        "brandName": "Dell",
+        "category": "Electronics",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/P2_1.webp",
+                "description": "Soundcore Space One"
+            },
+            {
+                "id": 2,
+                "link": "../image/Products/P2_2.webp",
+                "description": "Soundcore Space One - Alternate View"
+            },
+            {
+                "id": 3,
+                "link": "../image/Products/P2_3.webp",
+                "description": "Soundcore Space One - Side View"
+            },
+            {
+                "id": 4,
+                "link": "../image/Products/P2_4.webp",
+                "description": "Soundcore Space One - Side View"
+            }
+        ],
+        "price": 44500.5,
+        "rating": 4.5,
+        "noOfPeopleRated": 1287,
+        "discount": 20,
+        "shortDescription": "Grey color, 1TB Storage, 15GB RAM, 16Inch Display",
+        "highlight": {
+            "id": 1,
+            "text": "20% OFF",
+            "type": 0
+        }
+    },
+    {
+        "id": 30,
+        "name": "Pepe Jeans",
+        "brandName": "Pepe",
+        "category": "Clothing",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/P3_1.webp",
+                "description": "Jeans"
+            },
+            {
+                "id": 2,
+                "link": "../image/Products/P3_2.webp",
+                "description": "Jeans - Alternate View"
+            },
+            {
+                "id": 3,
+                "link": "../image/Products/P3_3.webp",
+                "description": "Jeans - Side View"
+            }
+        ],
+        "price": 2790,
+        "rating": 4.8,
+        "noOfPeopleRated": 829,
+        "discount": 0,
+        "shortDescription": "Pepe Slim Fit Jeans",
+        "highlight": {
+            "id": 3,
+            "text": "BEST SELLER",
+            "type": 2
+        }
+    },
+    {
+        "id": 31,
+        "name": "Nike Yoga Shoes",
+        "brandName": "Nike",
+        "category": "Footwear",
+        "images": [
+            {
+                "id": 2,
+                "link": "../image/Products/P4_2.webp",
+                "description": "Nike Shoe - Alternate View"
+            },
+            {
+                "id": 1,
+                "link": "../image/Products/P4_1.webp",
+                "description": "Nike Shoe"
+            },
+            {
+                "id": 3,
+                "link": "../image/Products/P4_3.webp",
+                "description": "Nike Shoe - Side View"
+            }
+        ],
+        "price": 4500,
+        "rating": 4.8,
+        "noOfPeopleRated": 2945,
+        "discount": 15,
+        "shortDescription": "Nike Air Yoga Shoes - Feels like feather",
+        "highlight": {
+            "id": 4,
+            "text": "Trending",
+            "type": 0
+        }
+    },
+    {
+        "id": 32,
+        "name": "Sunflower oil",
+        "brandName": "Fortune",
+        "category": "Grocery",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/P5_1.jpg",
+                "description": "Fortune olive oil"
+            },
+            {
+                "id": 2,
+                "link": "../image/Products/P5_2.jpg",
+                "description": "Fortune olive oil - Alternate View"
+            },
+            {
+                "id": 3,
+                "link": "../image/Products/P5_3.jpg",
+                "description": "Fortune olive oil - Side View"
+            }
+        ],
+        "price": 999,
+        "rating": 4.7,
+        "noOfPeopleRated": 945,
+        "discount": 10,
+        "shortDescription": "Fortune Gold Refined Sunflower Oil - 1L",
+        "highlight": {
+            "id": 1,
+            "text": "New Arrival",
+            "type": 0
+        }
+    },
+    {
+        "id": 33,
+        "name": "The Book Theif",
+        "brandName": "Penguin",
+        "category": "Books",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/P6_1.jpg",
+                "description": "The Alchemist Book"
+            }
+        ],
+        "price": 199,
+        "rating": 4.9,
+        "noOfPeopleRated": 1500,
+        "discount": 5,
+        "shortDescription": "The Book Theif by Paulo Coelho - Paperback",
+        "highlight": {
+            "id": 2,
+            "text": "BEST SELLER",
+            "type": 2
+        }
+    },
+    {
+        "id": 34,
+        "name": "Apple iPhone 16",
+        "brandName": "Apple",
+        "category": "Electronics",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/P7_1.jpg",
+                "description": "iPhone 13"
+            },
+            {
+                "id": 2,
+                "link": "../image/Products/P7_2.jpg",
+                "description": "iPhone 13 - Alternate View"
+            },
+            {
+                "id": 3,
+                "link": "../image/Products/P7_3.jpg",
+                "description": "iPhone 13 - Side View"
+            }
+        ],
+        "price": 149999,
+        "rating": 4.6,
+        "noOfPeopleRated": 2000,
+        "discount": 20,
+        "shortDescription": "Apple iPhone 16 (256GB) - Midnight",
+        "highlight": {
+            "id": 3,
+            "text": "Limited Time Offer",
+            "type": 2
+        }
+    },
+    {
+        "id": 35,
+        "name": "Building Blocks",
+        "brandName": "Bozica",
+        "category": "Toys",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/p35.webp",
+                "description": "Product image"
+            }
+        ],
+        "price": 1000,
+        "rating": 3.9,
+        "noOfPeopleRated": 16204,
+        "discount": 60,
+        "shortDescription": "Building Blocks - Creative Fun",
+        "highlight": {
+            "id": 3,
+            "text": "Limited Time Offer",
+            "type": 2
+        }
+    },
+    {
+        "id": 36,
+        "name": "Talking Plant",
+        "brandName": "Toytoy",
+        "category": "Toys",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/P36.webp",
+                "description": "Product image"
+            }
+        ],
+        "price": 1200,
+        "rating": 3.9,
+        "noOfPeopleRated": 10204,
+        "discount": 69,
+        "shortDescription": "Toytoy talking plant plus Voice repeat",
+        "highlight": {
+            "id": 3,
+            "text": "Limited Time Offer",
+            "type": 2
+        }
+    },
+    {
+        "id": 37,
+        "name": "Baby TriCycle",
+        "brandName": "ToyShopee",
+        "category": "Toys",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/P37.webp",
+                "description": "Product image"
+            }
+        ],
+        "price": 5999,
+        "rating": 3.9,
+        "noOfPeopleRated": 1600,
+        "discount": 47,
+        "shortDescription": "Baby TriCycle - Fun and Safe",
+        "highlight": {
+            "id": 3,
+            "text": "Limited Time Offer",
+            "type": 2
+        }
+    },
+    {
+        "id": 38,
+        "name": "Chess Board",
+        "brandName": "Apex",
+        "category": "Toys",
+        "images": [
+            {
+                "id": 1,
+                "link": "../image/Products/P38.webp",
+                "description": "Product image"
+            }
+        ],
+        "price": 500,
+        "rating": 4.2,
+        "noOfPeopleRated": 5786,
+        "discount": 0,
+        "shortDescription": "Magnetic Foldable - Chess Board",
+        "highlight": {
+            "id": 3,
+            "text": "Limited Time Offer",
+            "type": 2
         }
     }
 ]
